@@ -1,0 +1,26 @@
+{
+    "00db0111-f325-4c18-a393-313af7c80d68": {
+        "title": "Cover Fire",
+        "category": "Action",
+        "maxLevel": "4",
+        "imageUrl": "/images/avatar-1.jpg",
+        "summary": "In Cover Fire, you have received the call of duty to be the shooter who leads a squad of veterans through besieged cities, deserts and fields taken over by guerrillas, and defeat all kinds of enemies in the war with the greatest graphic and arsenal. It's time to take action on the battlefield.",
+        "_id": "00db0111-f325-4c18-a393-313af7c80d68"
+    },
+    "3d342309-96a7-46fc-bb45-ed4fe0f7f0ef": {
+        "title": "Satisfactory",
+        "category": "Automation",
+        "maxLevel": "10",
+        "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/526870/capsule_616x353.jpg?t=1718088881",
+        "summary": "It is a 3D first-person open world exploration and factory building game. The player, a pioneer, is dropped onto an alien planet with a handful of tools and must harvest the planet's natural resources to construct increasingly complex factories for automating all resource needs.",
+        "_id": "3d342309-96a7-46fc-bb45-ed4fe0f7f0ef"
+    },
+    "f0df16af-e34a-4353-b371-3223aa364646": {
+        "title": "World of Warcraft",
+        "category": "MMO RPG",
+        "maxlevel": "9",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/6/65/World_of_Warcraft.png",
+        "summary": "Gather your friends and allies and start a fresh adventure in World of Warcraft® Classic! Scour the lands of Azeroth to discover class-altering abilities.",
+        "_id": "f0df16af-e34a-4353-b371-3223aa364646"
+    }
+}
