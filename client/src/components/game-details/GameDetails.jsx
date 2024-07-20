@@ -12,6 +12,7 @@ export default function GameDetails() {
     useEffect(() => {
         (async () => {
             const result = await gamesAPI.getOne(gameId);
+            
             setGame(result);
         })();
     }, []);
