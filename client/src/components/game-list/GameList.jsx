@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 
 import * as request from "../../api/requester";
-import * as gamesAPI from '../../api/games-api'
 
 import GameListItem from "./game-list-item/GameListItem";
+import { useGetAllGames } from "../../hooks/useGames";
 
 export default function GameList() {
     // useEffect(() => {
@@ -12,12 +12,8 @@ export default function GameList() {
     //         const gamesResult = await request.get('http://localhost:3030/jsonstor/games')
     //     })()
     // }, [])
-    const [games, setGames] = useState([]);
 
-    useEffect(() => {
-        gamesAPI.getAll()
-            .then(result => setGames(result));
-    }, []);
+    const [games] = useGetAllGames();
 
     return (
         <section id="catalog-page">
